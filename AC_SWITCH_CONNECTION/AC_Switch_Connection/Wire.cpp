@@ -12,7 +12,7 @@ Wire::Wire(float length, float thickness, float price, string colour, string bra
     m_brand = brand;
 }
 
-void Wire::setAC(AC *A1)
+void Wire::setAC(AC* A1)
 {
     m_AC = A1;
 }
@@ -39,11 +39,11 @@ void Wire::displayWireDetails()
 {
     if(m_isWireOn)
     {
-        cout << "Current is flowing within Wire "<<endl;
+        cout << "Current is flowing within "<<m_brand<<" wire"<<endl;
     }
     else
     {
-        cout << "Current is not flowing within Wire "<<endl;
+        cout << "Current is not flowing within "<<m_brand<<" wire"<<endl;
     }
 }
 

@@ -1,6 +1,5 @@
 #ifndef AC_H
 #define AC_H
-
 #include "Wire.h"
 #include <string>
 using namespace std;
@@ -15,14 +14,14 @@ private:
     string m_Brand;
     string m_colour;
     bool m_isACOn;
-    Wire * m_wire;
+    Wire* m_wire;
 
 public:
     AC(int ACnum, float length, float width, double capacity, string Brand, string colour);
     void displayACdetails();
     void turnOnAC();
     void turnOffAC();
-    void setWire(Wire * w);
+    void setWire(Wire* w);
     ~AC();
 };
 

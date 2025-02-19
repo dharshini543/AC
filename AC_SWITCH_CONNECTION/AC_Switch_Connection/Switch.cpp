@@ -12,7 +12,7 @@ Switch::Switch(int switchNo, float length, float width, float price, string bran
     m_colour = colour;
 }
 
-void Switch::setWire(Wire *w)
+void Switch::setWire(Wire* w)
 {
     m_wire = w;
 }
