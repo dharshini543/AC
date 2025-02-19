@@ -1,6 +1,7 @@
 #ifndef WIRE_H
 #define WIRE_H
 #include <string>
+//#include"AC.h"
 using namespace std;
 
 class AC;
@@ -13,14 +14,14 @@ private:
     string m_colour;
     string m_brand;
     bool m_isWireOn;
-    AC * m_AC;
+    AC* m_AC;
 
 public:
     Wire(float length, float thickness, float price, string colour, string brand);
     void displayWireDetails();
     void turnOnWire();
     void turnOffWire();
-    void setAC(AC * A1);
+    void setAC(AC* A1);
     ~Wire();
 };
 

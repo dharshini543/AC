@@ -7,7 +7,7 @@
 				{
 					"build" : ".",
 					"hasInstallRule" : true,
-					"jsonFile" : "directory-.-Debug-402c2019fce9e5dfc6ef.json",
+					"jsonFile" : "directory-.-Debug-99141725ea7e24cd78a0.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.16"
@@ -40,7 +40,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "AC_Switch_Connection::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-AC_Switch_Connection-Debug-b231c396db2d89364521.json",
+					"jsonFile" : "target-AC_Switch_Connection-Debug-590e9778fad0648ef6af.json",
 					"name" : "AC_Switch_Connection",
 					"projectIndex" : 0
 				}

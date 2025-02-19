@@ -12,7 +12,7 @@ AC::AC(int ACnum, float length, float width, double capacity, string Brand, stri
     m_colour = colour;
 }
 
-void AC::setWire(Wire *w)
+void AC::setWire(Wire* w)
 {
     m_wire = w;
     w->setAC(this);
@@ -38,7 +38,7 @@ void AC::displayACdetails()
 {
     if(m_isACOn)
     {
-        cout<< "ACnum : " << m_ACnum << " is On"<<endl;
+        cout<< "ACnum : " << m_ACnum << " is On"<<endl<<endl;
     }
     else
     {

@@ -73,6 +73,24 @@ build CMakeFiles/AC_Switch_Connection.dir/Wire.cpp.obj: CXX_COMPILER__AC_Switch_
   OBJECT_DIR = CMakeFiles\AC_Switch_Connection.dir
   OBJECT_FILE_DIR = CMakeFiles\AC_Switch_Connection.dir
 
+build CMakeFiles/AC_Switch_Connection.dir/Polycab_wire.cpp.obj: CXX_COMPILER__AC_Switch_Connection_unscanned_Debug C$:/C++/AC/AC_SWITCH_CONNECTION/AC_Switch_Connection/Polycab_wire.cpp || cmake_object_order_depends_target_AC_Switch_Connection
+  DEP_FILE = CMakeFiles\AC_Switch_Connection.dir\Polycab_wire.cpp.obj.d
+  FLAGS = -DQT_QML_DEBUG -g -std=gnu++17 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\AC_Switch_Connection.dir
+  OBJECT_FILE_DIR = CMakeFiles\AC_Switch_Connection.dir
+
+build CMakeFiles/AC_Switch_Connection.dir/Finolex_wire.cpp.obj: CXX_COMPILER__AC_Switch_Connection_unscanned_Debug C$:/C++/AC/AC_SWITCH_CONNECTION/AC_Switch_Connection/Finolex_wire.cpp || cmake_object_order_depends_target_AC_Switch_Connection
+  DEP_FILE = CMakeFiles\AC_Switch_Connection.dir\Finolex_wire.cpp.obj.d
+  FLAGS = -DQT_QML_DEBUG -g -std=gnu++17 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\AC_Switch_Connection.dir
+  OBJECT_FILE_DIR = CMakeFiles\AC_Switch_Connection.dir
+
+build CMakeFiles/AC_Switch_Connection.dir/Havels_wire.cpp.obj: CXX_COMPILER__AC_Switch_Connection_unscanned_Debug C$:/C++/AC/AC_SWITCH_CONNECTION/AC_Switch_Connection/Havels_wire.cpp || cmake_object_order_depends_target_AC_Switch_Connection
+  DEP_FILE = CMakeFiles\AC_Switch_Connection.dir\Havels_wire.cpp.obj.d
+  FLAGS = -DQT_QML_DEBUG -g -std=gnu++17 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\AC_Switch_Connection.dir
+  OBJECT_FILE_DIR = CMakeFiles\AC_Switch_Connection.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target AC_Switch_Connection
@@ -81,7 +99,7 @@ build CMakeFiles/AC_Switch_Connection.dir/Wire.cpp.obj: CXX_COMPILER__AC_Switch_
 #############################################
 # Link the executable AC_Switch_Connection.exe
 
-build AC_Switch_Connection.exe: CXX_EXECUTABLE_LINKER__AC_Switch_Connection_Debug CMakeFiles/AC_Switch_Connection.dir/main.cpp.obj CMakeFiles/AC_Switch_Connection.dir/AC.cpp.obj CMakeFiles/AC_Switch_Connection.dir/Switch.cpp.obj CMakeFiles/AC_Switch_Connection.dir/Wire.cpp.obj
+build AC_Switch_Connection.exe: CXX_EXECUTABLE_LINKER__AC_Switch_Connection_Debug CMakeFiles/AC_Switch_Connection.dir/main.cpp.obj CMakeFiles/AC_Switch_Connection.dir/AC.cpp.obj CMakeFiles/AC_Switch_Connection.dir/Switch.cpp.obj CMakeFiles/AC_Switch_Connection.dir/Wire.cpp.obj CMakeFiles/AC_Switch_Connection.dir/Polycab_wire.cpp.obj CMakeFiles/AC_Switch_Connection.dir/Finolex_wire.cpp.obj CMakeFiles/AC_Switch_Connection.dir/Havels_wire.cpp.obj
   FLAGS = -DQT_QML_DEBUG -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\AC_Switch_Connection.dir

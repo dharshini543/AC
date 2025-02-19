@@ -34,7 +34,7 @@
 			{
 				"command" : 1,
 				"file" : 0,
-				"line" : 14,
+				"line" : 17,
 				"parent" : 0
 			}
 		]
@@ -62,7 +62,10 @@
 				0,
 				2,
 				4,
-				6
+				6,
+				8,
+				10,
+				12
 			]
 		}
 	],
@@ -116,7 +119,10 @@
 				0,
 				2,
 				4,
-				6
+				6,
+				8,
+				10,
+				12
 			]
 		},
 		{
@@ -125,7 +131,10 @@
 			[
 				1,
 				3,
-				5
+				5,
+				7,
+				9,
+				11
 			]
 		}
 	],
@@ -168,6 +177,39 @@
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
 			"path" : "Wire.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Polycab_wire.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Polycab_wire.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Finolex_wire.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Finolex_wire.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Havels_wire.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Havels_wire.cpp",
 			"sourceGroupIndex" : 0
 		}
 	],
