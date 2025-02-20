@@ -1,13 +1,10 @@
 #include "Switch.h"
 #include<iostream>
 
-Switch::Switch(int switchNo, float length, float width, float price, string brand, string colour)
+Switch::Switch(int switchNo, string brand, string colour)
 {
     cout<< "Switch constructor"<<endl;
     m_switchNo = switchNo;
-    m_length = length;
-    m_width = width;
-    m_price = price;
     m_brand = brand;
     m_colour = colour;
 }
@@ -25,14 +22,14 @@ Switch::~Switch()
 void Switch::turnOnSwitch()
 {
     m_isSwitchOn = true;
-    displaySwitchDetails();
+    cout<<"Switch is turned On"<<endl;
     m_wire->turnOnWire();
 
 }
 void Switch::turnOffSwitch()
 {
     m_isSwitchOn = false;
-    displaySwitchDetails();
+    cout<<"Switch is turned OFF"<<endl;
     m_wire->turnOffWire();
 
 }

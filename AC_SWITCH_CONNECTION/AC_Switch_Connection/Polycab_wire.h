@@ -7,7 +7,9 @@ using namespace std;
 class Polycab_wire:public Wire
 {
 public:
-    Polycab_wire(float length, float thickness, float price, string colour, string brand);
+    Polycab_wire(string colour, string brand);
+    void turnOnWire();
+    void turnOffWire();
     ~Polycab_wire();
 };
 

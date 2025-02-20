@@ -7,7 +7,9 @@ using namespace std;
 class Havels_wire:public Wire
 {
 public:
-    Havels_wire(float length, float thickness, float price, string colour, string brand);
+    Havels_wire(string colour, string brand);
+    void turnOnWire();
+    void turnOffWire();
     ~Havels_wire();
 };
 

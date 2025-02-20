@@ -8,21 +8,19 @@ class AC;
 class Wire
 {
 private:
-    float m_length;
-    float m_thickness;
-    float m_price;
     string m_colour;
     string m_brand;
     bool m_isWireOn;
+protected:
     AC* m_AC;
 
 public:
-    Wire(float length, float thickness, float price, string colour, string brand);
+    Wire(string colour, string brand);
     void displayWireDetails();
-    void turnOnWire();
-    void turnOffWire();
+    virtual void turnOnWire();
+    virtual void turnOffWire();
     void setAC(AC* A1);
-    ~Wire();
+    virtual ~Wire();
 };
 
 #endif // WIRE_H

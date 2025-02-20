@@ -8,16 +8,13 @@ class Switch
 {
 private:
     int m_switchNo;
-    float m_length;
-    float m_width;
-    float m_price;
     string m_brand;
     string m_colour;
     bool m_isSwitchOn;
     Wire* m_wire;
 
 public:
-    Switch(int switchNo, float length, float width, float price, string brand, string colour);
+    Switch(int switchNo, string brand, string colour);
     void displaySwitchDetails();
     void turnOnSwitch();
     void turnOffSwitch();
