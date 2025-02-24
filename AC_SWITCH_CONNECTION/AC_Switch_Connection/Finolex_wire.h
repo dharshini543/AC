@@ -7,7 +7,9 @@ using namespace std;
 class Finolex_wire:public Wire
 {
 public:
-    Finolex_wire(float length, float thickness, float price, string colour, string brand);
+    Finolex_wire(string colour, string brand);
+    void turnOnWire();
+    void turnOffWire();
     ~Finolex_wire();
 };
 

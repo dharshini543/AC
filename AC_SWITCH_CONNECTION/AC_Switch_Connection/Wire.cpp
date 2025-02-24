@@ -2,12 +2,9 @@
 #include "AC.h"
 #include<iostream>
 
-Wire::Wire(float length, float thickness, float price, string colour, string brand)
+Wire::Wire(string colour, string brand)
 {
     cout<< "Wire constructor"<<endl;
-    m_length = length;
-    m_thickness = thickness;
-    m_price = price;
     m_colour = colour;
     m_brand = brand;
 }
@@ -25,13 +22,13 @@ Wire::~Wire()
 void  Wire::turnOnWire()
 {
     m_isWireOn = true;
-    displayWireDetails();
+    cout << "Current is flowing within "<<m_brand<<" wire"<<endl;
     m_AC->turnOnAC();
 }
 void Wire::turnOffWire()
 {
     m_isWireOn = false;
-    displayWireDetails();
+    cout << "Current is not flowing within "<<m_brand<<" wire"<<endl;
     m_AC->turnOffAC();
 }
 

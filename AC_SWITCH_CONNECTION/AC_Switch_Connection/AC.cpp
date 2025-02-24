@@ -1,13 +1,10 @@
 #include "AC.h"
 #include<iostream>
 
-AC::AC(int ACnum, float length, float width, double capacity, string Brand, string colour)
+AC::AC(int ACnum, string Brand, string colour)
 {
     cout<< "AC constructor"<<endl;
     m_ACnum = ACnum;
-    m_length = length;
-    m_width = width;
-    m_capacity = capacity;
     m_Brand = Brand;
     m_colour = colour;
 }
@@ -26,12 +23,13 @@ AC::~AC()
 void AC::turnOnAC()
 {
     m_isACOn= true;
-    displayACdetails();
+    cout<<"AC is turned ON"<<endl<<endl;
 }
+
 void AC::turnOffAC()
 {
     m_isACOn = false;
-    displayACdetails();
+    cout<<"AC is turned OFF"<<endl<<endl;
 }
 
 void AC::displayACdetails()

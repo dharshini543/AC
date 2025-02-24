@@ -6,6 +6,7 @@
 #include "Wire.h"
 #include <iostream>
 using namespace std;
+
 enum wire
 {
     Polycab = 1,
@@ -16,8 +17,8 @@ enum wire
 int main()
 {
     Wire* wire = NULL;
-    AC ac1(1, 40, 40, 1.5, "Voltas", "white");
-    Switch s1(1, 10, 5, 50, "philips", "white");
+    AC ac1(1,"Voltas", "white");
+    Switch s1(1,"philips", "white");
 
     int choice;
     cout<<endl;
@@ -30,17 +31,17 @@ int main()
     {
     case Polycab:
     {
-        wire = new Polycab_wire(100, 2, 1000, "Black", "Polycab");
+        wire = new Polycab_wire("Black", "Polycab");
         break;
     }
     case Finolex:
     {
-        wire = new Finolex_wire(100, 2, 1000, "Black", "Finolex");
+        wire = new Finolex_wire("Black", "Finolex");
         break;
     }
     case Havels:
     {
-        wire = new Havels_wire(100, 2, 1000, "Black", "Havels");
+        wire = new Havels_wire("Black", "Havels");
         break;
     }
     default:
@@ -52,6 +53,8 @@ int main()
     ac1.setWire(wire);
     s1.turnOnSwitch();
     //s1.turnOffSwitch();
+
+    delete wire;
 
     return 0;
 }
